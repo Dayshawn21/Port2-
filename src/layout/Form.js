@@ -2,10 +2,8 @@ import React from 'react';
 import useForm from './useForm';
 
 const Form = () => {
-	const { values, handleChange, handleSubmit } = useForm(login);
-	function login() {
-		console.log(values);
-	}
+	const { values, handleChange, handleSubmit } = useForm();
+
 	return (
 		<div className="container">
 			<h1 className="large text-center"> How Can I Help You </h1>

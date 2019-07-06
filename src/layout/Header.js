@@ -12,7 +12,7 @@ const Header = () => {
 				<a href="https://github.com/Dayshawn21">
 					<i className="fab fa-github fa-7x" />
 				</a>
-				<a href="www.linkedin.com/in/dayshawn-terry-4167a261">
+				<a href="https://www.linkedin.com/in/dayshawn-terry-4167a261/">
 					<i class="fab fa-linkedin fa-7x" />
 				</a>
 				<a href={PDF}>
