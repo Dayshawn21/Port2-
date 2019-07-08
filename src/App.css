@@ -452,4 +452,8 @@ table th {
 		text-align: center;
 		justify-content: center;
 	}
+
+	.icon {
+		flex-direction: column;
+	}
 }
