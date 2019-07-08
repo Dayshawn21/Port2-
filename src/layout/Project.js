@@ -2,11 +2,10 @@ import React from 'react';
 import IZ from '../img/IZ.png';
 import barber from '../img/barber.png';
 import cont from '../img/cont.png';
-import { Link } from 'react-router-dom';
 
 const Project = () => {
 	return (
-		<div className="text-center container ">
+		<div className="text-center container p-1 ">
 			<h1 className="large">Project</h1>
 			<p className="lead">Few projects that I completed</p>
 			<div className="grid-3 ">
