@@ -1,7 +1,7 @@
 import React from 'react';
-import IZ from '../img/IZ.png';
-import barber from '../img/barber.png';
-import cont from '../img/cont.png';
+import IZ from '../img/Optimized-IZ.png';
+import barber from '../img/Optimized-barber.png';
+import cont from '../img/Optimized-cont.png';
 
 const Project = () => {
 	return (

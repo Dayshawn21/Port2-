@@ -15,16 +15,17 @@ const About = () => {
 			</div>
 			<div>
 				<p className="lead">
-					I am a self-taught programmer from Houston Texas. I started programming about a year and spend my
-					days coding, polishing up my skills. I am highly-motivated, result oriented, self-driven,
-					hard-working, fast learner and smart eager to be a part of the team, learn new technologies, become
-					a valuable employee of the company and bring it success.
+					I am a self-taught programmer from Houston, Texas. I started programming about a year ago and, since
+					then, I’ve spent my days continuing my coding journey by polishing up and enhancing my skills. I am
+					highly motivated, result-oriented, self-driven, hard-working – and a fast learner. I am especially
+					eager to be a part of the team and to learn new technologies so that I can become a valuable
+					employee and bring success to my future company.
 				</p>
 			</div>
 			<div className=" p-2">
 				<h1 className="large text-center">Skills</h1>
 				<p className="lead text-center
-      ">A few skills that I pick up on the way </p>
+      ">A few skills that I’ve picked up along the way</p>
 				<div className="icon">
 					<img src={html} alt="" />
 					<img src={css} alt="" />

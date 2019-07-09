@@ -25,7 +25,8 @@ const Form = () => {
 									placeholder="How can I help you"
 									required
 								/>
-								<button type="submit" className="btn btn-dark btn-block">
+								<br />
+								<button type="submit" className="btn btn-dark btn-block p-1">
 									Submit
 								</button>
 							</div>
