@@ -2,7 +2,7 @@ import React from 'react';
 import IZ from '../img/Optimized-IZ.png';
 import barber from '../img/Optimized-barber.png';
 import cont from '../img/Optimized-cont.png';
-
+import player from '../img/Optimized-sports.png';
 const Project = () => {
 	return (
 		<div className="text-center container p-1 ">
@@ -23,6 +23,11 @@ const Project = () => {
 					<img src={cont} alt="" />
 					<a href="https://goofy-mayer-b4b348.netlify.com/">Website</a>
 					<a href="https://github.com/Dayshawn21/Stock">GitHub</a>
+				</div>
+				<div className="project">
+					<img src={player} alt="" />
+					<a href="https://sportstracker12345.netlify.com/">Website</a>
+					<a href="https://github.com/Dayshawn21/PlayerTracker">GitHub</a>
 				</div>
 			</div>
 		</div>
