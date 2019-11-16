@@ -12,11 +12,12 @@ const Skills = () => {
 			<p className="lead text-center
       ">A few skills that I pick up on the way </p>
 			<div className="icon">
+				<div>
 				<img src={html} alt="" />
-				<img src={css} alt="" />
-				<img src={javascript} alt="" />
-				<img src={react} alt="" />
-				<img src={sass} alt="" />
+				<p>HTML</p>
+				</div>
+
+				
 			</div>
 		</div>
 	);

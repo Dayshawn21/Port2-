@@ -4,6 +4,8 @@ import html from '../img/html.png';
 import javascript from '../img/javascript.png';
 import react from '../img/react.png';
 import sass from '../img/sass.png';
+import git from '../img/Git-Icon-1788C.png';
+import gatsby from '../img/gatsby.png';
 
 const About = () => {
 	return (
@@ -26,12 +28,37 @@ const About = () => {
 				<h1 className="large text-center">Skills</h1>
 				<p className="lead text-center
       ">A few skills that I’ve picked up along the way</p>
-				<div className="icon">
+				<div className="grid-4 icon text-center">
+				<div className="icons">
 					<img src={html} alt="" />
+					<h3 >HTML</h3>
+					</div>
+				<div className="icons">
 					<img src={css} alt="" />
+					<h3 >CSS</h3>
+					</div>
+				<div className="icons">
 					<img src={javascript} alt="" />
-					<img src={react} alt="" />
+					<h3 >Javascript</h3>
+					</div>
+				
+				<div className="icons">
 					<img src={sass} alt="" />
+					<h3>SASS</h3>
+					</div>
+				<div className="icons">
+					<img src={react} alt="" />
+					<h3>React</h3>
+					</div>
+				<div className="icons">
+					<img src={gatsby} alt="" />
+					<h3>Gatsby</h3>
+					</div>
+				<div className="icons">
+					<img src={git} alt="" />
+					<h3>Git</h3>
+					</div>
+				
 				</div>
 			</div>
 		</div>

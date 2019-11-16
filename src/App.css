@@ -403,10 +403,14 @@ table th {
 	color: #fff;
 }
 
-.icon {
-	display: flex;
-	justify-content: space-between;
+
+.icons{
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  border-radius: 5px; /* 5px rounded corners */
+
 }
+
 .icon img {
 	height: 150px;
 	width: 150px;
@@ -421,6 +425,12 @@ table th {
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  border-radius: 5px; /* 5px rounded corners */
+}
+img {
+  border-radius: 5px 5px 0 0;
 }
 
 /* Mobile Styles */
