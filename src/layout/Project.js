@@ -4,10 +4,9 @@ import barber from '../img/Optimized-barber.png';
 import cont from '../img/Optimized-cont.png';
 import player from '../img/Optimized-sports.png';
 import news from '../img/news.png';
-
+import timer from '../img/timer1.png';
 
 const Project = () => {
-
 	return (
 		<div className="text-center container p-1 ">
 			<h1 className="large">Project</h1>
@@ -35,6 +34,13 @@ const Project = () => {
 					<a href="https://github.com/Dayshawn21/Stock">GitHub</a>
 				</div>
 				<div className="project">
+					<img src={timer} alt="" />
+					<p>Timer </p>
+					<p>Javascript </p>
+					<a href="https://sharp-lamport-c325eb.netlify.com/">Website</a>
+					<a href="https://github.com/Dayshawn21/Timer">GitHub</a>
+				</div>
+				<div className="project">
 					<img src={player} alt="" />
 					<p>An app were you can track the players on your team</p>
 					<p>React </p>
@@ -48,7 +54,6 @@ const Project = () => {
 					<a href="https://newlsetter.netlify.com/">Website</a>
 					<a href="https://github.com/Dayshawn21/Newsletter">GitHub</a>
 				</div>
-			
 			</div>
 		</div>
 	);
