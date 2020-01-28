@@ -4,7 +4,7 @@ import barber from '../img/Optimized-barber.png';
 import cont from '../img/Optimized-cont.png';
 import player from '../img/Optimized-sports.png';
 import news from '../img/news.png';
-import timer from '../img/timer1.png';
+import timer from '../img/movie1.png';
 
 const Project = () => {
 	return (
@@ -37,8 +37,8 @@ const Project = () => {
 					<img src={timer} alt="" />
 					<p>Timer </p>
 					<p>Javascript </p>
-					<a href="https://sharp-lamport-c325eb.netlify.com/">Website</a>
-					<a href="https://github.com/Dayshawn21/Timer">GitHub</a>
+					<a href="https://frosty-williams-f6d042.netlify.com">Website</a>
+					<a href="https://github.com/Dayshawn21/movie">GitHub</a>
 				</div>
 				<div className="project">
 					<img src={player} alt="" />
