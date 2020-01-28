@@ -35,7 +35,7 @@ const Project = () => {
 				</div>
 				<div className="project">
 					<img src={timer} alt="" />
-					<p>Timer </p>
+					<p>Movie Fight </p>
 					<p>Javascript </p>
 					<a href="https://frosty-williams-f6d042.netlify.com">Website</a>
 					<a href="https://github.com/Dayshawn21/movie">GitHub</a>
