@@ -37,7 +37,7 @@ const Project = () => {
 					<img src={timer} alt="" />
 					<p>Movie Fight </p>
 					<p>Javascript </p>
-					<a href="https://frosty-williams-f6d042.netlify.com">Website</a>
+					<a href="https://moviefight21.netlify.app/">Website</a>
 					<a href="https://github.com/Dayshawn21/movie">GitHub</a>
 				</div>
 				<div className="project">
