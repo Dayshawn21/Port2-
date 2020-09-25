@@ -1,6 +1,6 @@
 import React from 'react';
 
-import PDF from '../img/resume.pdf';
+import PDF from '../img/dayresume.pdf';
 
 const Header = () => {
 	return (

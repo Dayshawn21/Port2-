@@ -1,6 +1,6 @@
 import React from 'react';
 import IZ from '../img/image 1.png';
-import barber from '../img/Optimized-barber.png';
+import barber from '../img/ep.png';
 import cont from '../img/Optimized-cont.png';
 import player from '../img/Optimized-sports.png';
 import news from '../img/news.png';
@@ -12,6 +12,13 @@ const Project = () => {
 			<h1 className="large">Project</h1>
 			<p className="lead">Few projects that I completed</p>
 			<div className="grid-3 text-center ">
+			<div className="project">
+					<img src={barber} alt="" />
+					<p>A business directory for entrepreneurs</p>
+					<p>React, Strapi and SCSS </p>
+					<a href="https://entrepreneurpages.net">Website</a>
+					<a href="https://github.com/Dayshawn21/businessfe">GitHub</a>
+				</div>
 				<div className="project ">
 					<img src={IZ} alt="" />
 					<p>A Photography Website</p>
@@ -19,13 +26,7 @@ const Project = () => {
 					<a href="https://ijv.netlify.com">Website</a>
 					<a href="https://github.com/Dayshawn21/IV2">GitHub</a>
 				</div>
-				<div className="project">
-					<img src={barber} alt="" />
-					<p>A Barbershop Website</p>
-					<p>HTML and CSS </p>
-					<a href="https://fadeking.netlify.com">Website</a>
-					<a href="https://github.com/Dayshawn21/Fade-King">GitHub</a>
-				</div>
+			
 				<div className="project">
 					<img src={cont} alt="" />
 					<p>A Conusulting Website</p>
